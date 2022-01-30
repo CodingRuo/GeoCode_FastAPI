@@ -2,7 +2,7 @@ import requests
 
 
 def get_geodata(address: str):
-    api_key = 'AIzaSyAKOMOG0QYfX_Zvf7fkZSDROOKOHnbPor4'
+    api_key = ''
     params = {
         'key': api_key,
         'address': address
